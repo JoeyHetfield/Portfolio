@@ -1,53 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-<style>
-h1{
-    font-family: fantasy, sans-serif;
-    font-size: 50px;
-    letter-spacing: 1px;
- }
- header{
-    text-align: center;
- }
-p{
-    font-family:Arial, Helvetica, sans-serif;
-}
-body{
-    background-color: #331832;
-    color: white;
-}
+    <style>
+        h1 {
+            font-family: fantasy, sans-serif;
+            font-size: 50px;
+            letter-spacing: 1px;
+        }
 
-</style>
+        header {
+            text-align: center;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #331832;
+            color: white;
+        }
+
+        .menu a {
+            color: rgb(190, 151, 151);
+            font-size: 30px;
+        }
+
+        .menu a:hover {
+            color: aquamarine;
+        }
+
+        #qualidade {
+            font-size: 20px;
+        }
+
+        #cria {
+            background-color: #262A10;
+        }
+
+        #deter {
+            background-color: #DB9D47;
+        }
+
+        #foco {
+            background-color: #4062BB;
+        }
+        #hobbie a{
+            color: #D0DB97;
+        }
+        #hobbie a:hover{
+            color: aquamarine;
+        }
+    </style>
 
 </head>
+
 <body>
     <header>
         <h1>Joey Hetfield Soares Campos</h1>
-          <a href="./71813574_2689995027728906_5041501211802478084_n.jpg" target="_blank">
-    <img src="./71813574_2689995027728906_5041501211802478084_n.jpg" width="300px" alt="Foto de Joey">
-    </a>
-</header>
-    <h2>Menu:</h2>
-    <a href="#sobre">Sobre mim</a> <br>
-    <a href="#qualidade">Minhas qualidades</a> <br>
-    <a href="#aprendizado">Meus aprendizados</a> <br>
-    <a href="#hobbie">Meus Hobbies</a> 
-   
+        <a href="./71813574_2689995027728906_5041501211802478084_n.jpg" target="_blank">
+            <img src="./71813574_2689995027728906_5041501211802478084_n.jpg" width="300px" alt="Foto de Joey">
+        </a>
+    </header>
+    <nav class="menu">
+        <h2>Menu:</h2>
+        <a href="#sobre">Sobre mim</a> <br>
+        <a href="#qualidade">Minhas qualidades</a> <br>
+        <a href="#aprendizado">Meus aprendizados</a> <br>
+        <a href="#hobbie">Meus Hobbies</a>
+    </nav>
+
     <h2 id="sobre">Sobre mim:</h2>
-    <p> Sou <strong>Brasileiro</strong> nasci e cresci em <em>São Paulo/SP</em> 
-    e tenho objetivo de me tornar um ótimo desenvolvedor web no futuro próximo. <br>
-    Acredito ter algumas qualidades como por exempĺo: </p>
+    <p> Sou <strong>Brasileiro</strong> nasci e cresci em <em>São Paulo/SP</em>
+        e tenho objetivo de me tornar um ótimo desenvolvedor web no futuro próximo. <br>
+        Acredito ter algumas qualidades como por exempĺo: </p>
 
     <ul id="qualidade">
-        <li><strong>Criatividade</strong></li>
-        <li>Determinação do Naruto </li>
-        <li>Foco quando preciso</li>
+        <li id="cria"><strong>Criatividade</strong></li>
+        <li id="deter">Determinação do Naruto </li>
+        <li id="foco">Foco quando preciso</li>
     </ul>
     <h2 id="aprendizado">O que estou aprendendo na Trybe:</h2>
     <ul>
@@ -57,9 +94,14 @@ body{
         <li>CSS</li>
         <li>JavaScript</li>
     </ul>
-    <h2 id="hobbie">Meus hobbies:</h2>
 
-    <p>Gosto de assistir animes e ficar informado no site:</p> <a href="https://beta.crunchyroll.com/pt-br" target="_blank">Crunchyroll</a>
 
+    <footer id="hobbie">
+    <h2>Meus hobbies:</h2>
+
+    <p>Gosto de assistir animes e ficar informado no site:</p> <a href="https://beta.crunchyroll.com/pt-br"
+        target="_blank">Crunchyroll</a>
+    </footer>
 </body>
+
 </html>
