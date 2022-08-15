@@ -1,0 +1,49 @@
+h1 {
+    font-family: fantasy, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #331832;
+    color: white;
+}
+
+.menu a {
+    color: rgb(190, 151, 151);
+    font-size: 30px;
+}
+
+.menu a:hover {
+    color: aquamarine;
+}
+
+#qualidade {
+    font-size: 20px;
+}
+
+#cria {
+    background-color: #262A10;
+}
+
+#deter {
+    background-color: #DB9D47;
+}
+
+#foco {
+    background-color: #4062BB;
+}
+#hobbie a{
+    color: #D0DB97;
+}
+#hobbie a:hover{
+    color: aquamarine;
+}
